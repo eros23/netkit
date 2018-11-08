@@ -7,12 +7,12 @@ Run the following command:
 * Debian/Raspbian 7, 8 and 9 and Ubuntu 14.04, 15.10, 16.04, 16.10 and 18.04
 
 ```shell
-cd /tmp; wget -O installer.tgz "https://github.com/eros23/netkit/master"; tar zxvf installer.tgz; cd *netkit*; sudo bash netkit.sh
+cd /tmp; wget -O installer.tgz "https://github.com/eros23/netkit/tarball/master"; tar zxvf installer.tgz; cd *netkit*; sudo bash netkit.sh
 ```
 * CentOS 7
 
 ```shell
-cd /tmp; sudo yum install wget unzip net-tools; wget -O installer.tgz "https://github.com/eros23/netkit/master"; tar zxvf installer.tgz; cd *netkit*; sudo bash netkit.sh
+cd /tmp; sudo yum install wget unzip net-tools; wget -O installer.tgz "https://github.com/eros23/netkit/tarball/master"; tar zxvf installer.tgz; cd *netkit*; sudo bash netkit.sh
 ```
 
 #### Created by
