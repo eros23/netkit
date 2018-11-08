@@ -2,7 +2,7 @@
 
 Follow one of the above guides to install a fresh copy of a supported Linux distribution.
 
-Run the following command:
+Run the following command as root:
 
 * Debian/Raspbian 7, 8 and 9 and Ubuntu 14.04, 15.10, 16.04, 16.10 and 18.04
 

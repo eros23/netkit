@@ -92,7 +92,7 @@ echo -e "${DISTRO} [${green}FATTO${NC}]\n"
 #---------------------------------------------------------------------
 # Carica file in base alla distro
 #---------------------------------------------------------------------
-if [ ! -d ${APWD}/distro/${DISTRO}/install.sh ]; then
+if [ ! -f ${APWD}/distro/${DISTRO}/install.sh ]; then
     echo -e "${red}Errore: Sembra che la tua distro ${DISTRO} non abbia un file di installazione. Aiutaci ad implementarlo!.${NC}" >&2
 	exit 1
 fi
