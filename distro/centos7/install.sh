@@ -3,7 +3,7 @@
 #---------------------------------------------------------------------
 Install() {
     echo -n "Installazione dei pacchetti necessari per il funzionamento di netkit... "
-    yum_install lib32ncurses5 lib32z1 xterm konsole gnome-terminal
+    yum_install wget unzip net-tools lib32ncurses5 lib32z1 xterm konsole gnome-terminal
     echo -e "[${green}FATTO${NC}]\n"
 
     echo -n "Download dei files di NETKIT... (Attendere) "
