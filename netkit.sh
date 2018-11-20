@@ -116,7 +116,7 @@ if [ -n "$ID_LIKE" ]; then
 	echo -e "Related Linux Distributions:\t\t$ID_LIKE"
 fi
 
-echo "\nAiutaci a testare e implementare nuove funzionalita', premi INVIO se capisci di cosa sto parlando ..."
+echo "\nPremi INVIO se capisci di cosa sto parlando ..."
 
 #Pausa
 read DUMMY
