@@ -113,10 +113,10 @@ echo "tutti i componenti necessari per far avviare Netkit."
 echo -e "Quando viene eseguito lo script, assicurati di avere una checklist [${green}Positiva${NC}]\n"
 echo -e "The detected Linux Distribution is:\t${PRETTY_NAME:-$ID-$VERSION_ID}"
 if [ -n "$ID_LIKE" ]; then
-	echo -e "Related Linux Distributions:\t\t$ID_LIKE\n"
+	echo -e "Related Linux Distributions:\t\t$ID_LIKE"
 fi
 
-echo "Aiutaci a testare e implementare nuove funzionalita', premi INVIO se capisci di cosa sto parlando ..."
+echo "\nAiutaci a testare e implementare nuove funzionalita', premi INVIO se capisci di cosa sto parlando ..."
 
 #Pausa
 read DUMMY
