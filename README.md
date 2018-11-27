@@ -1,3 +1,13 @@
+### Netkit Autoinstall ###
+
+Netkit is a self-contained environment that makes it easy and costless to
+emulate complex network configurations on a single host machine. The idea
+underlying Netkit is that each network device is implemented by a virtual
+machine running the appropriate software. Virtual machines can then be
+interconnected as desired by configuring virtual collision domains.
+
+http://wiki.netkit.org
+
 ### How do I get set up? ###
 
 Follow one of the above guides to install a fresh copy of a supported Linux distribution.
