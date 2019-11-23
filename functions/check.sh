@@ -163,7 +163,6 @@ VerificaDistro() {
 
 		elif echo "$VERSION_ID" | grep -iq "18.10"; then
 			DISTRO=ubuntu-18.10
-		fi
 
 		#---------------------------------------------------------------------
 		#	Ubuntu 19.10
