@@ -3,7 +3,7 @@
 #---------------------------------------------------------------------
 Install() {
     echo -n "Installazione dei pacchetti necessari per il funzionamento di netkit... "
-    apt_install lib32ncurses5 lib32z1 xterm konsole gnome-terminal
+    apt_install lib32ncurses6 lib32z1 xterm konsole gnome-terminal
     echo -e "[${green}FATTO${NC}]\n"
 
     echo -n "Download dei files di NETKIT... (Attendere) "
