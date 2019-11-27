@@ -24,11 +24,30 @@ cd /tmp; wget -O installer.tgz "https://github.com/eros23/netkit/tarball/master"
 ```shell
 cd /tmp; sudo yum install wget unzip net-tools; wget -O installer.tgz "https://github.com/eros23/netkit/tarball/master"; tar zxvf installer.tgz; cd *netkit*; sudo bash netkit.sh
 ```
+
+### Sei uno studente? ###
+
 * VirtualBox (Tutto Pronto)
 
 Se stai seguendo il corso "Reti di Calcolatori" del CdL di Ingegneria Informaica/Scienze Informatiche dell'Università di Messina, puoi scaricare questa immagine ed importarla sul tuo [VirtualBox](https://www.virtualbox.org/wiki/Downloads). Il sistema è già pronto per il laboratorio.
 
-[Netkit Unime](https://drive.google.com/drive/)
+- Scarica l'immagine .ova di [Netkit Unime](https://drive.google.com/drive/).
+- Eseguila sul tuo [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+- Una volta eseguta, puoi caricare una rete di esempio:
+  - Recati nella cartella:
+  ```shell
+  cd /home/user/Desktop/homeworks/esempio1
+  ```
+  - Dall'interno della directory, avvia la rete:
+  ```shell
+  lstart
+  ```
+  - Attendi il Caricamento di tutti i pc,routers, etc.
+  - Per chiudere tutto, digita:
+  ```shell
+  lcrash -F
+  ```
+  
 
 Note: Assicurati di avere l'opzione di virtualizzazione attivata nel tuo BIOS come VT-x.
 
