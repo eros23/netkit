@@ -31,7 +31,7 @@ cd /tmp; sudo yum install wget unzip net-tools; wget -O installer.tgz "https://g
 
 Se stai seguendo il corso "Reti di Calcolatori" del CdL di Ingegneria Informaica/Scienze Informatiche dell'Università di Messina, puoi scaricare questa immagine ed importarla sul tuo [VirtualBox](https://www.virtualbox.org/wiki/Downloads). Il sistema è già pronto per il laboratorio.
 
-- Scarica l'immagine .ova di [Netkit Unime](https://drive.google.com/open?id=1soEuZOILM2i1d0DQ-D6g_lupdaoYo9SA) - ver. Lubuntu 16.04.
+- Scarica l'immagine .ova di [Netkit Unime](https://drive.google.com/file/d/1soEuZOILM2i1d0DQ-D6g_lupdaoYo9SA/view?usp=sharing) - ver. Lubuntu 16.04.
 - Eseguila sul tuo [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 - Lab pronto per l'uso!
 
