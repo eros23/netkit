@@ -24,6 +24,12 @@ cd /tmp; wget -O installer.tgz "https://github.com/eros23/netkit/tarball/master"
 ```shell
 cd /tmp; sudo yum install wget unzip net-tools; wget -O installer.tgz "https://github.com/eros23/netkit/tarball/master"; tar zxvf installer.tgz; cd *netkit*; sudo bash netkit.sh
 ```
+* VirtualBox (Tutto Pronto)
+Se stai seguendo il corso "Reti di Calcolatori" del CdL di Ingegneria Informaica/Scienze Informatiche dell'Università di Messina, puoi scaricare questa immagine ed importarla sul tuo [VirtualBox](https://www.virtualbox.org/wiki/Downloads). Il sistema è già pronto per il laboratorio.
+
+[Netkit Unime](https://drive.google.com/drive/)
+
+Note: Assicurati di avere l'opzione di virtualizzazione attivata nel tuo BIOS come VT-x.
 
 #### Created by
 
