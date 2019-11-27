@@ -31,25 +31,26 @@ cd /tmp; sudo yum install wget unzip net-tools; wget -O installer.tgz "https://g
 
 Se stai seguendo il corso "Reti di Calcolatori" del CdL di Ingegneria Informaica/Scienze Informatiche dell'Università di Messina, puoi scaricare questa immagine ed importarla sul tuo [VirtualBox](https://www.virtualbox.org/wiki/Downloads). Il sistema è già pronto per il laboratorio.
 
-- Scarica l'immagine .ova di [Netkit Unime](https://drive.google.com/drive/).
+- Scarica l'immagine .ova di [Netkit Unime](https://drive.google.com/open?id=1soEuZOILM2i1d0DQ-D6g_lupdaoYo9SA) - ver. Lubuntu 16.04.
 - Eseguila sul tuo [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
-- Una volta eseguta, puoi caricare una rete di esempio:
-  - Recati nella cartella:
-  ```shell
-  cd /home/user/Desktop/homeworks/esempio1
-  ```
-  - Dall'interno della directory, avvia la rete:
-  ```shell
-  lstart
-  ```
-  - Attendi il Caricamento di tutti i pc,routers, etc.
-  - Per chiudere tutto, digita:
-  ```shell
-  lcrash -F
-  ```
-  
+- Lab pronto per l'uso!
 
-Note: Assicurati di avere l'opzione di virtualizzazione attivata nel tuo BIOS come VT-x.
+Una volta eseguita, puoi caricare una rete di esempio:
+- Apri il Terminale e digita il seguente comando:
+```shell
+ cd /home/user/Desktop/homeworks/esempio1
+```
+- Dall'interno della directory, avvia la rete:
+```shell
+ lstart
+```
+- Attendi il caricamento...(pc1, pc2, router...etc).
+- Per chiudere tutto, digita:
+```shell
+ lcrash -F
+```
+
+Nota: Assicurati di avere l'opzione di virtualizzazione attivata nel tuo BIOS come VT-x.
 
 #### Created by
 
